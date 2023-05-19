@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* globales */
+body{
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+/* Menu */
+#menu li > a{
+    font-size: 18px;
+    font-weight:bold ;
+    color: #3f3f3f;
+}
+#menu form > button{
+    font-size: 18px;
+    font-weight:bold ;
+}
+
+
+/* Slider de Imagenes */
+.carousel-inner{
+    max-height: 39rem ;
+}
+
+/* Seccion Nuestro Equipo */
+
+
+
+/* media queries pantalla */
+@media (max-width:768px){
+    #intro{ width:90% !important;
+    }
+    .servicio-fila{
+        width:100% !important;
+        text-align: center;
+    }
+}
+
+/* media queries pantalla extre-sm */
+
+@media (max-width:576px){
+    .icono-wrap{
+        flex-wrap:wrap;
+        justify-content: center !important;
+
+    }
+}
