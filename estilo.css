@@ -45,6 +45,9 @@ body{
     #bg-contacto{
         top: -110px;
     }
+    .container{
+        width: 90% !important;
+    }
 }
 
 /* media queries pantalla extre-sm */
@@ -69,6 +72,10 @@ body{
         width: 90%;
         margin:auto ; 
         padding-top: 50px;
+    }
+
+    .container{
+        width:90%;
     }
 }
 
@@ -101,12 +108,12 @@ body{
     height: 500px;
 }
 
-#local{
-    background: #f3f3f3;
-    padding-bottom: 300px;
-    display: flex;
-    justify-content: center;
-}
+/* #local{ */
+    /* background: #f3f3f3; */
+    /* padding-bottom: 300px; */
+    /* display: flex; */
+    /* justify-content: center; */
+/* } */
 
 .wrapper{
     width: 50%;
@@ -119,14 +126,14 @@ body{
 
 #bg-contacto{
     position: relative;
-    top: -130px;
+    top: -200px;
 }
 
-#seccion-contacto{
-    background-color: #1b2a4e;
-    min-height: 500px;
+/* #seccion-contacto{
+    background-color: #898f9e;
+    min-height: 200px;
     position: relative;
-}
+} */
 
 
 /* CONTACTOS FORMULARIO */
